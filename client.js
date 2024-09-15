@@ -1,4 +1,4 @@
-console.log("Hey");
+ReactDOM.hydrateRoot(document.getElementById("root"), <Home />);
 const pizzas = [
   {
     name: "Focaccia",
